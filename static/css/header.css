@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:300,400);
+header {
+    display: table;
+    background: radial-gradient(ellipse at left, #ffb76b 0%,#ff7f04 70%,#ff7f04 93%,#ff7f04 94%,#ff7f04 94%,#ff7f04 100%);
+    width: 100vw;
+    height: 6vw;
+    font-family: 'Lora', serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    box-shadow: -1vw .2vw 5vw black;
+    margin-top: -9vw;
+    z-index: 10;
+
+}
+
+header div, header h1 {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+header h1 {
+    font-size: 3.3vw;
+    padding-right: 25vw;
+    font-family: Lato sans-serif;
+
+}
+a#logo  {
+    margin-right: 9vw;
+    z-index: 11;
+}
+a#logo img {
+    height: 7vw;
+    margin: 0.5;
+    padding:0.5vw;
+}
+
+header div#navb {
+    display: none;
+}
+header div#navb img {
+    height: 6vw;
+}
+header div#close img {
+    height: 6vw;
+    color: #AAA;
+}
+nav#mainNav {
+    display: block;
+    list-style-type: none;
+    width: 48vw;
+    margin-top: 0vw;
+    position: fixed;
+    top: 6.8vw;
+    right: -4vw;
+    border-left-color: #333;
+    border-radius: 10vw;
+    overflow: hidden;
+    box-shadow: -1vw .2vw 5vw black;
+    -webkit-transform: translateZ(0)
+}
+nav#mainNav span {
+    display: block;
+    text-align: center;
+    height: 2.8vw;
+    width: 11vw;
+    float: left;
+    background-color: #000033;
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: .1vw;
+    opacity: 0.95;
+}
+nav#mainNav span:hover {
+    background-color: #1a53ff;
+    opacity: 1;
+}
+nav#mainNav span a {
+    display: block;
+    width: 10vw;
+    color: #FFF;
+    font-size: 1.5vw;
+    text-decoration: none;
+    padding: 0.5vw;
+}
+nav#mainNav span#close {
+    display: none;
+}
+nav#mainNav.mobileNav {
+    display: table;
+    width: 100vw;
+    height: 50vw;
+    margin: 0;
+    position: absolute;
+    top: 11vw;
+    background-color: rgba(0,0,0,.8);
+}
+nav#mainNav.mobileNav span {
+    display: table-row;
+    width: 100vw;
+}
+nav#mainNav.mobileNav span a {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    font-size: 8vw;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border-bottom-style: solid;
+}
+.hide {
+    display: none !important;
+}
+@media screen and (max-device-width: 480px) {
+    div#logo {
+        display: none;
+    }
+    header div#navb {
+        display: table-cell;
+        cursor: pointer;
+    }
+    nav#mainNav {
+        display: none;
+    }
+
+}
