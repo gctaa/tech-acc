@@ -25,15 +25,6 @@ header h1 {
     font-family: Lato sans-serif;
 
 }
-a#logo  {
-    margin-right: 9vw;
-    z-index: 11;
-}
-a#logo img {
-    height: 7vw;
-    margin: 0.5;
-    padding:0.5vw;
-}
 
 header div#navb {
     display: none;
@@ -47,29 +38,34 @@ header div#close img {
 }
 nav#mainNav {
     display: block;
+    width:100%;
     list-style-type: none;
-    width: 48vw;
     margin-top: 0vw;
     position: fixed;
     top: 6.8vw;
-    right: -4vw;
     border-left-color: #333;
-    border-radius: 10vw;
-    overflow: hidden;
     box-shadow: -1vw .2vw 5vw black;
     -webkit-transform: translateZ(0)
 }
 nav#mainNav span {
     display: block;
-    text-align: center;
-    height: 2.8vw;
-    width: 11vw;
+    text-align: center,bottom;
+    width: 19%;
     float: left;
     background-color: #000033;
     border-right-style: solid;
     border-right-color: white;
     border-right-width: .1vw;
     opacity: 0.95;
+}
+nav#mainNav span#other{
+    height:2.8vw:
+}
+nav#mainNav span#logo{
+    height:5.6vw;
+}
+nav#mainNav span img {
+    width:100%;
 }
 nav#mainNav span:hover {
     background-color: #1a53ff;
