@@ -49,29 +49,32 @@ nav#mainNav span {
     text-align: center,bottom;
     width: 14.28%;
     float: left;
-    background-color: #000033;
+    background-color: #595959;
     opacity: 0.95;
     padding: 0vw;
-  /* border-width: .1vw; */
-  /*  border-color: white; */
-  /*  border-bottom-style: solid; */
+    border-width: 0vw;
+    border-color: white;
+    border-bottom-style: solid;
+    border-style: solid;
 }
 nav#mainNav span#other{
     height: 3.8vw;
+    padding-bottom: .2vw;
 }
 nav#mainNav span#logo{
-    height: 4.5vw;
+    height: auto;
     border-width: 0vw;
     border-color: white;
     border-bottom-style: solid;
     border-bottom-left-radius: .7vw;
     border-bottom-right-radius: .7vw;
-    padding-top: .7vw;
+    padding: 0vw;
 }
 nav#mainNav span img {
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
     height: auto;
+    padding-top: .5vw;
 }
 nav#mainNav span:hover {
     background-color: #1a53ff;
@@ -83,7 +86,6 @@ nav#mainNav span a {
     color: #FFF;
     font-size: 3vw;
     text-decoration: none;
-    padding-bottom: .5vw;
     text-align: center;
 }
 nav#mainNav span#close {
