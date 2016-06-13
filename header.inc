@@ -10,13 +10,44 @@
 
 <!--this list is for the nav bar-->
 <nav id="mainNav">
-  <span id="other"><a href="about.php">About</a></span>
-  <span id="other"><a href="/contact">History</a></span>
-  <span id="other"><a href="/project">Projects</a></span>
-  <span id="logo"><a href="index.php"><img src="static/media/techlogo.png"/></a></span>
-  <span id="other"><a href="info.php">News</a></span>
-  <span id="other"><a href="/contact">Links</a></span>
-  <span id="other"><a href="/contact">Apply</a></span>
+    <span id="other">
+        <div id="button">About
+            <div id="dropdown">
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+            </div>
+        </div>
+    </span>
+    <span id="other">
+        <div id="button">History
+            <div id="dropdown"></div>
+        </div>
+    </span>
+    <span id="other">
+        <div id="button">Projects
+            <div id="dropdown"></div>
+        </div>
+    </span>
+    <span id="logo">
+        <div id="button"><img src="static/media/techlogo.png">
+            <div id="dropdown"></div>
+        </div>
+    </span>
+    <span id="other">
+        <div id="button">News
+            <div id="dropdown"></div>
+        </div>
+    </span>
+    <span id="other">
+        <div id="button">Links
+            <div id="dropdown"></div>
+        </div>
+    </span>
+    <span id="other">
+        <div id="button">Apply
+            <div id="dropdown"></div>
+        </div>
+    </span>
 
 </nav>
 </header>
