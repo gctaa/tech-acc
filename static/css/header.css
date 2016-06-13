@@ -1,14 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:300,400);
 header {
     display: table;
-    background: radial-gradient(ellipse at left, #ffb76b 0%,#ff7f04 70%,#ff7f04 93%,#ff7f04 94%,#ff7f04 94%,#ff7f04 100%);
     width: 100vw;
     height: 6vw;
     font-family: 'Lora', serif;
     position: fixed;
     left: 0;
     right: 0;
-    box-shadow: -1vw .2vw 5vw black;
     margin-top: -9vw;
     z-index: 10;
 
@@ -42,30 +40,31 @@ nav#mainNav {
     list-style-type: none;
     margin-top: 0vw;
     position: fixed;
-    top: 6.8vw;
+    top: 2vw;
     border-left-color: #333;
-    box-shadow: -1vw .2vw 5vw black;
     -webkit-transform: translateZ(0)
 }
 nav#mainNav span {
     display: block;
     text-align: center,bottom;
-    width: 19%;
+    width: 14.28%;
     float: left;
     background-color: #000033;
     border-right-style: solid;
     border-right-color: white;
-    border-right-width: .1vw;
+    border-width: 0vw;
     opacity: 0.95;
+    
 }
 nav#mainNav span#other{
-    height:2.8vw:
+    height: 2.8vw;
 }
 nav#mainNav span#logo{
-    height:5.6vw;
+    height: 5.6vw;
 }
 nav#mainNav span img {
-    width:100%;
+    width: 100%;
+    text-align: center;
 }
 nav#mainNav span:hover {
     background-color: #1a53ff;
@@ -73,11 +72,12 @@ nav#mainNav span:hover {
 }
 nav#mainNav span a {
     display: block;
-    width: 10vw;
+    width: 100%;
     color: #FFF;
     font-size: 1.5vw;
     text-decoration: none;
     padding: 0.5vw;
+    text-align: center;
 }
 nav#mainNav span#close {
     display: none;

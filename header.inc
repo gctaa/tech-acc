@@ -10,11 +10,14 @@
 
 <!--this list is for the nav bar-->
 <nav id="mainNav">
-  <span><a id="other" href="about.php">About Olorun</a></span>
-  <span><a id="other" href="/project">the project</a></span>
+  <span><a id="other" href="about.php">About</a></span>
+  <span><a id="other" href="/contact">History</a></span>
+  <span><a id="other" href="/project">Projects</a></span>
   <span><a id="logo" href="index.php"><img src="static/media/Olorun.png"/></a></span>
-  <span><a id="other" href="info.php">info</a></span>
-  <span><a id="other" href="/contact">Contact Us</a></span>
+  <span><a id="other" href="info.php">News</a></span>
+  <span><a id="other" href="/contact">Links</a></span>
+  <span><a id="other" href="/contact">Apply</a></span>
+
 </nav>
 </header>
 </html>
