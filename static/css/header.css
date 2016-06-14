@@ -69,18 +69,21 @@ nav#mainNav span#other div#dropdown {
 }
 nav#mainNav span#other div#dropdown a#content {
     vertical-align: middle;
-    width: 100vw;
-    font-size: 8vw;
-    font-weight: bold;
-    color: white;
+    width: 100%;
+    font-size: 2vw;
+    color: black;
     background-color: transparent;
-    border-bottom-style: solid;
+    display: table;
+    float: top;
+}
+nav#mainNav span#other div#dropdown a#content:hover {
+    background-color: #009933;
 }
 nav#mainNav span#other div#button:hover div#dropdown {
     display: block;
 }
 nav#mainNav span#logo{
-    height: auto;
+    height: 5vw;
     border-width: 0vw;
     border-color: white;
     border-bottom-style: solid;
@@ -89,10 +92,9 @@ nav#mainNav span#logo{
     padding: 0vw;
 }
 nav#mainNav span img {
-    max-width: 90%;
-    text-align: center;
+    width: 90%;
     height: auto;
-    padding-top: .5vw;
+    padding: 5%;
 }
 nav#mainNav span:hover {
     background-color: #1a53ff;
@@ -105,6 +107,7 @@ nav#mainNav span#other div#button {
     font-size: 3vw;
     text-decoration: none;
     text-align: center;
+    height: 100%;
 }
 nav#mainNav span#close {
     display: none;

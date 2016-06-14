@@ -7,7 +7,7 @@ body {
     margin-top: 9vw;
     padding: 0;
     margin-left: 0vw;
-    background-color: #ffeb99;
+    background-color: #FFFFF0;
     z-index: 1;
 }
 main div {
@@ -54,7 +54,7 @@ main {
     display: block;
 }
 .boxes {
-    background-color: #ffeb99;
+    background-color: none;
     text-align: center;
     display: table;
     margin: auto;
@@ -69,8 +69,8 @@ main {
     margin-right: 1.5vw;
     margin-bottom: 1.5vw;
     text-decoration: none;
-    color: black;
-    background-color: #ffa64d;
+    color: white;
+    background-color: #33cc33;
     opacity:.85;
     border-radius:2vw;
 }
@@ -82,7 +82,7 @@ main {
     margin-top:0vw;
     padding-top:.4vw;
     padding-bottom:.4vw;
-    background-color: #ff8c1a;
+    background-color: #333;
     overflow: hide;
     border-radius: 2vw;
 }
@@ -91,9 +91,11 @@ main {
     text-align: left;
     font-size: 3vw;
     padding-left: 1vw;
+    color: white;
+    background-color: none;
 }
 .setbox:hover {
-    background-color: #ffad33;
+    background-color: #009933;
 }
 
 @media screen and (max-device-width: 480px) {

@@ -28,11 +28,11 @@
             <div id="dropdown"></div>
         </div>
     </span>
+
     <span id="logo">
-        <div id="button"><img src="static/media/techlogo.png">
-            <div id="dropdown"></div>
-        </div>
+        <img src="static/media/techlogo.png"></img>
     </span>
+
     <span id="other">
         <div id="button">News
             <div id="dropdown"></div>

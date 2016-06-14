@@ -19,7 +19,7 @@
 }
 /* Slides is the div that all the imgs are in and it is also resized by Kevin Cole's java script */
 #slides {
-    background-color: #ffeb99;
+    background-color: none;
 }
 
 /* Each image lasts 5 seconds at 1 opacity which is why each slide is delayed for 5 seonds and then on. */
