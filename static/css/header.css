@@ -41,7 +41,7 @@ nav#mainNav {
     position: fixed;
     top: 0vw;
     border-left-color: #333;
-    -webkit-transform: translateZ(0)
+    -webkit-transform: translateZ(0);
 }
 nav#mainNav span {
     display: block;
@@ -55,17 +55,23 @@ nav#mainNav span {
     border-color: white;
     border-bottom-style: solid;
     border-style: solid;
+    transition: background-color .2s;
 }
 nav#mainNav span#other {
-    height: 3.8vw;
-    padding-bottom: .2vw;
+    height: 4vw;
+    padding-bottom: 0vw;
 }
 nav#mainNav span#other div#dropdown {
     display: none;
-    position: absolute;
+    position: fixed;
+    top: 4vw;
     background-color: #f9f9f9;
     width: 14.28%;
     height: auto;
+    z-index: -2;
+    border-color: #f2f2f2;
+    box-shadow: 0vw 0vw 1vw .2vw #888888;
+    overflow: hidden;
 }
 nav#mainNav span#other div#dropdown a#content {
     vertical-align: middle;
@@ -75,11 +81,12 @@ nav#mainNav span#other div#dropdown a#content {
     background-color: transparent;
     display: table;
     float: top;
+    transition: background-color .3s;
 }
 nav#mainNav span#other div#dropdown a#content:hover {
-    background-color: #009933;
+    background-color: #00FF80;
 }
-nav#mainNav span#other div#button:hover div#dropdown {
+nav#mainNav span#other:hover div#dropdown {
     display: block;
 }
 nav#mainNav span#logo{
@@ -97,7 +104,7 @@ nav#mainNav span img {
     padding: 5%;
 }
 nav#mainNav span:hover {
-    background-color: #1a53ff;
+    background-color: #00FF80;
     opacity: 1;
 }
 nav#mainNav span#other div#button {
@@ -107,7 +114,8 @@ nav#mainNav span#other div#button {
     font-size: 3vw;
     text-decoration: none;
     text-align: center;
-    height: 100%;
+    height: 4vw;
+    z-index: 20;
 }
 nav#mainNav span#close {
     display: none;

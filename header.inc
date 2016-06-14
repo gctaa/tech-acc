@@ -10,22 +10,37 @@
 
 <!--this list is for the nav bar-->
 <nav id="mainNav">
+
     <span id="other">
         <div id="button">About
             <div id="dropdown">
                 <a id="content">ok</a>
                 <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
             </div>
         </div>
     </span>
+
     <span id="other">
         <div id="button">History
-            <div id="dropdown"></div>
+            <div id="dropdown">
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+            </div>
         </div>
     </span>
+
     <span id="other">
         <div id="button">Projects
-            <div id="dropdown"></div>
+            <div id="dropdown">
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+            </div>
         </div>
     </span>
 
@@ -35,17 +50,34 @@
 
     <span id="other">
         <div id="button">News
-            <div id="dropdown"></div>
+            <div id="dropdown">
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+            </div>
         </div>
     </span>
+
     <span id="other">
         <div id="button">Links
-            <div id="dropdown"></div>
+            <div id="dropdown">
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+            </div>
         </div>
     </span>
+
     <span id="other">
         <div id="button">Apply
-            <div id="dropdown"></div>
+            <div id="dropdown">
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+                <a id="content">ok</a>
+            </div>
         </div>
     </span>
 
