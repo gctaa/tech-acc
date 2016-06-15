@@ -57,9 +57,23 @@ nav#mainNav span {
     border-style: solid;
     transition: background-color .2s;
 }
+nav#mainNav span:hover {
+    background-color: #00FF80;
+    opacity: 1;
+}
 nav#mainNav span#other {
     height: 4vw;
     padding-bottom: 0vw;
+}
+nav#mainNav span#other div#button {
+    display: block;
+    width: 100%;
+    color: #FFF;
+    font-size: 3vw;
+    text-decoration: none;
+    text-align: center;
+    height: 4vw;
+    z-index: 20;
 }
 nav#mainNav span#other div#dropdown {
     display: none;
@@ -72,6 +86,9 @@ nav#mainNav span#other div#dropdown {
     border-color: #f2f2f2;
     box-shadow: 0vw 0vw 1vw .2vw #888888;
     overflow: hidden;
+}
+nav#mainNav span#other:hover div#dropdown {
+    display: block;
 }
 nav#mainNav span#other div#dropdown a#content {
     vertical-align: middle;
@@ -86,9 +103,6 @@ nav#mainNav span#other div#dropdown a#content {
 nav#mainNav span#other div#dropdown a#content:hover {
     background-color: #00FF80;
 }
-nav#mainNav span#other:hover div#dropdown {
-    display: block;
-}
 nav#mainNav span#logo{
     height: 5vw;
     border-width: 0vw;
@@ -102,20 +116,6 @@ nav#mainNav span img {
     width: 90%;
     height: auto;
     padding: 5%;
-}
-nav#mainNav span:hover {
-    background-color: #00FF80;
-    opacity: 1;
-}
-nav#mainNav span#other div#button {
-    display: block;
-    width: 100%;
-    color: #FFF;
-    font-size: 3vw;
-    text-decoration: none;
-    text-align: center;
-    height: 4vw;
-    z-index: 20;
 }
 nav#mainNav span#close {
     display: none;
