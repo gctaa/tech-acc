@@ -50,75 +50,76 @@ window.onload = window.onresize = function () {
 <!--this list is for the nav bar-->
 <nav id="mainNav">
 
-    <span id="other">
-        <div id="button">About
-            <div id="dropdown">
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
+    <div class="other">
+        <div class="button">About
+            <div class="dropdown">
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
             </div>
         </div>
-    </span>
+    </div>
 
-    <span id="other">
-        <div id="button">FAQs
-            <div id="dropdown">
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
+    <div class="other">
+        <div class="button">FAQs
+            <div class="dropdown">
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
             </div>
         </div>
-    </span>
+    </div>
 
-    <span id="other">
-        <div id="button">Projects
-            <div id="dropdown">
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
+    <div class="other">
+        <div class="button">Projects
+            <div class="dropdown">
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
             </div>
         </div>
-    </span>
+    </div>
 
-    <span id="logo">
+    <div class="logo">
         <img src="static/media/techlogo.png" />
-    </span>
+    </div>
 
-    <span id="other">
-        <div id="button">News
-            <div id="dropdown">
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
+    <div class="other">
+        <div class="button">News
+            <div class="dropdown">
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
             </div>
         </div>
-    </span>
+    </div>
 
-    <span id="other">
-        <div id="button">Links
-            <div id="dropdown">
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
+    <div class="other">
+        <div class="button">Links
+            <div class="dropdown">
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
             </div>
         </div>
-    </span>
+    </div>
 
-    <span id="other">
-        <div id="button">Contact
-            <div id="dropdown">
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-                <a id="content">ok</a>
-             </div>
+    <div class="other">
+        <div class="button">Contact
+            <div class="dropdown">
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+                <a>ok</a>
+
+            </div>
 	</div>
-    </span>
+    </div>
 
 </nav>
 </header>

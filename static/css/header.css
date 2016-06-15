@@ -40,7 +40,7 @@ nav#mainNav {
     border-left-color: #333;
     -webkit-transform: translateZ(0);
 }
-nav#mainNav span {
+nav#mainNav div {
     display: block;
     text-align: center,bottom;
     width: 14.28%;
@@ -54,14 +54,18 @@ nav#mainNav span {
     border-style: solid;
     transition: background-color .2s;
 }
-nav#mainNav span:hover {
+nav#mainNav div.button:hover {
     background-color: #00FF80;
     opacity: 1;
 }
-nav#mainNav span#other {
+nav#mainNav div.logo:hover {
+    background-color: #00FF80;
+    opacity: 1;
+}
+nav#mainNav div.other {
     height: 3vw;
 }
-nav#mainNav span#other div#button {
+nav#mainNav div.other div.button {
     display: block;
     position: relative;
     top: .2vw;
@@ -70,10 +74,11 @@ nav#mainNav span#other div#button {
     font-size: 2vw;
     text-decoration: none;
     text-align: center;
-    height: 4vw;
+    height: 3vw;
     z-index: 20;
+    border: 0;
 }
-nav#mainNav span#other div#dropdown {
+nav#mainNav div.other div.dropdown {
     display: none;
     position: fixed;
     top: 3vw;
@@ -85,10 +90,10 @@ nav#mainNav span#other div#dropdown {
     box-shadow: 0vw 0vw 1vw .2vw #888888;
     overflow: hidden;
 }
-nav#mainNav span#other:hover div#dropdown {
+nav#mainNav div.other:hover div.dropdown {
     display: block;
 }
-nav#mainNav span#other div#dropdown a#content {
+nav#mainNav div.other div.dropdown a {
     vertical-align: middle;
     width: 100%;
     font-size: 2vw;
@@ -98,10 +103,10 @@ nav#mainNav span#other div#dropdown a#content {
     float: top;
     transition: background-color .3s;
 }
-nav#mainNav span#other div#dropdown a#content:hover {
+nav#mainNav div.other div.dropdown a:hover {
     background-color: #00FF80;
 }
-nav#mainNav span#logo{
+nav#mainNav div.logo{
     height: 4vw;
     border-width: 0vw;
     border-color: white;
@@ -110,14 +115,14 @@ nav#mainNav span#logo{
     border-bottom-right-radius: .7vw;
     padding: 0vw;
 }
-nav#mainNav span#logo img {
+nav#mainNav div.logo img {
     width: 80%;
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 1%;
 }
-nav#mainNav span#close {
+nav#mainNav div.close {
     display: none;
 }
 nav#mainNav.mobileNav {
