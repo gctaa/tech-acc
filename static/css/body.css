@@ -4,13 +4,15 @@
 @import url(footer.css);
 body {
     font-family: 'Lora', serif;
-    margin-top: 9vw;
+    margin-top: 6vw;
     padding: 0;
     margin-left: 0vw;
     margin-right 0vw;
+    max-width: 100vw;
     width: 100%;
     background-color: #FFFFF0;
     z-index: 1;
+    overflow: scroll;
 }
 main div {
     display: block;
@@ -52,6 +54,13 @@ main {
     margin-bottom: 0;
     margin-top: 0;
 }
+.smallerTitle {
+    position: static;
+    right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 2.5vw;
+}
 .setboxbox{
     display: block;
 }
@@ -66,32 +75,35 @@ main {
 }
 .setbox {
     position: relative;
-    width: 20%;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     float: right;
     display: table-cell;
     text-align: center;
-    margin-right: 1.5vw;
+    margin-right: 7vw;
     margin-left: 0vw;
     margin-bottom: 1.5vw;
     text-decoration: none;
     color: white;
-    background-color: #cccccc;
+    background-color: white;
     opacity:.85;
     border-width: .1vw;
     border-style: solid;
-    border-color: #bfbfbf;
+    border-color: #F8F8FF;
+    transition: background-color .3s;
 }
 .setbox:first-child {
-    margin-right: 18vw;
+    margin-right: 10.5vw;
 }
 .setbox h2{
     margin-top: 0vw;
     font-size: 2vw;
     height: 6vw;
-    background-color: #333;
+    color: black;
+    background-color: white;
     overflow: hide;
     padding: auto;
+    transition: background-color .3s;
 }
 .setbox p {
     position: absolute;
@@ -104,18 +116,29 @@ main {
     text-align: left;
     font-size: 1.5vw;
     color: black;
-    background-color: #cccccc;
-    border-width: .1vw;
+    background-color: white;
+    border-width: 0vw;
     border-top-style: solid;
-    border-color: #bfbfbf;
+    border-color: #F8F8FF;
     text-align: center;
+    transition: background-color .3s;
 }
 .setbox:hover {
-    background-color: white;
+    background-color: #cccccc;
+}
+.setbox:hover h2 {
+    background-color: #cccccc;
 }
 .setbox:hover p {
-    background-color: white;
-    border-color:white;
+    background-color: #cccccc;
+}
+.calander {
+    position: static;
+    height: 46vw;
+    width: 69vw;
+    margin-right: 15.5vw;
+    margin-left: 15.5vw;
+    border: .1vw solid #d9d9d9;
 }
 @media screen and (max-device-width: 480px) {
     main {

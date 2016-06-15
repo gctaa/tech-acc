@@ -1,48 +1,10 @@
-<head>
-<meta charset="utf-8">
-<title>Arlington Career Center Parent Advisory Group</title>
-<link rel="icon" href="static/media/techlogo.png">
-<link rel="stylesheet" href="static/css/body.css">
-<link rel="stylesheet" href="static/css/info.css">
-<link rel="stylesheet" href="static/css/slide.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
-</script>
-<script>
-$(document).ready(function() {
-  $('div#navb').click(function() {
-    $('nav#mainNav').addClass('mobileNav');
-    $('header div#navb').addClass('hide');
-    $('header div#close').removeClass('hide');
-  });
-  $('header div#close').click(function() {
-    $('nav#mainNav').removeClass('mobileNav');
-    $('header div#navb').removeClass('hide');
-    $('header div#close').addClass('hide');
-  });
-});
-</script>
-<script type="text/javascript">
-// Written by Kevin Cole [kjcole@ubuntu.com] 2014.10.24
-//
-// Dynamically resize the slideshow parent div to the size of the
-// auto-resizing images within it. Sadly, it appears I cannot
-// force the slideshow parent div to resize any other way. Bugger.
-
-window.onload = window.onresize = function () {
-  var slides = document.getElementById("slides");
-  var slide  = slides.children[0];
-  slides.style.height = slide.offsetHeight + "px";
-}
-</script>
-</head>
-
 <!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
 
 <main>
-
+<h1 class="pageTitle">Parent Advisory Committee</h1>
 Arlngton Tech - Arlington Career Center
-<h1 class="pageTitle">Home</h1>
+<h1 class="smallerTitle">Home</h1>
 <!-- Page title above. <hr> is the weird break black line below. Never knew about it till now -->
 <hr>
 
@@ -78,6 +40,10 @@ Arlngton Tech - Arlington Career Center
     <p>For more information contact us by clicking here!</p>
   </a>
 </div>
+
+<hr>
+
+<iframe class="calander" src="https://calendar.google.com/calendar/embed?src=v3pvp6mvpmb4n5eulj1dnjncnc%40group.calendar.google.com&ctz=America/New_York"></iframe>
 
 </main>
 
