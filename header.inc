@@ -2,6 +2,9 @@
 <!--this is the inc file for the headesr it works just like html and is inserted into any body file-->
 <html lang ="en">
 <link rel="stylesheet" href="static/css/header.css">
+
+<body>
+
 <header>
 <!--this is for the mobile functionality the navburger is the three horisontal lines in the top right of the mobile version-->
 <div id="navb"><img src="static/media/navburger.svg" alt="navigation icon">
@@ -83,4 +86,3 @@
 
 </nav>
 </header>
-</html>

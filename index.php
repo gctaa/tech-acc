@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Olorun Home</title>
-<link rel="icon" href="static/media/OlorunSM.png">
+<title>Arlington Career Center Parent Advisory Group</title>
+<link rel="icon" href="static/media/techlogo.png">
 <link rel="stylesheet" href="static/css/body.css">
 <link rel="stylesheet" href="static/css/info.css">
 <link rel="stylesheet" href="static/css/slide.css">
@@ -38,11 +36,11 @@ window.onload = window.onresize = function () {
 </script>
 </head>
 
-
-<body>
 <!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
+
 <main>
+
 Arlngton Tech - Arlington Career Center
 <h1 class="pageTitle">Home</h1>
 <!-- Page title above. <hr> is the weird break black line below. Never knew about it till now -->
@@ -85,5 +83,3 @@ Arlngton Tech - Arlington Career Center
 
 <!-- This is the footer -->
 <?php include ("footer.inc"); ?>
-
-</body></html>
