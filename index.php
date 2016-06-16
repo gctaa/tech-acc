@@ -29,14 +29,17 @@ Arlngton Tech - Arlington Career Center
 <div class="boxes">
   <a class="setbox" href="about.php">
     <h2>About the program</h2>
+    <img class=icon src="static/media/projectImages/pen.ico" />
     <p>Picture maybe?</p>
   </a>
   <a class="setbox" href="/project">
     <h2>History/Legacy of the program</h2>
+    <img class=icon src="static/media/projectImages/pen.ico" />
     <p>Quick explanation of recent history or legacy</p>
   </a>
   <a class="setbox" href="/contact">
     <h2>Contact us</h2>
+    <img class=icon src="static/media/projectImages/pen.ico" />
     <p>For more information contact us by clicking here!</p>
   </a>
 </div>
