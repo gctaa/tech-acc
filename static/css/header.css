@@ -91,14 +91,21 @@ nav#mainNav div.button:hover div.dropdown {
 nav#mainNav div.dropdown a {
     vertical-align: middle;
     width: 100%;
+    padding: .4vw;
     font-size: 1vw;
     color: black;
-    border-bottom: 0.1vw solid gray;
+    border-bottom: 0.1vw solid #e6e6e6;
     background-color: transparent;
     display: table;
     float: top;
     transition: background-color .3s;
     text-decoration: none;
+}
+nav#mainNav div.dropdown a:last-child {
+    border-bottom: 0vw;
+}
+nav#mainNav div.dropdown a:first-child {
+    border-top: 0.1vw solid #e6e6e6;
 }
 nav#mainNav div.dropdown a:hover {
     background-color: #00FF80;
