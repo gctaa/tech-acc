@@ -51,19 +51,26 @@ window.onload = window.onresize = function () {
 
     <div class="button">About
         <div class="dropdown">
-            <a href="">History</a>
-            <a href="">Plans</a>
+            <a>History</a>
+            <a>Plans</a>
         </div>
     </div>
 
-    <a  href=""><div class="button">FAQs</div></a>
+    <div class="button">FAQs
+        <div class="dropdown">
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
+        </div>
+    </div>
 
     <div class="button">Programs
         <div class="dropdown">
-            <a href="">Engineering</a>
-            <a href="">Computer Science</a>
-            <a href="">Psudo-Engineering</a>
-            <a href="">Forbidden Engineering</a>
+            <a>Engineering</a>
+            <a>Computer Science</a>
+            <a>Psudo-Engineering</a>
+            <a>Forbidden Engineering</a>
         </div>
     </div>
 
@@ -73,24 +80,31 @@ window.onload = window.onresize = function () {
 
     <div class="button">News
         <div class="dropdown">
-            <a href="">ok</a>
-            <a href="">ok</a>
-            <a href="">ok</a>
-            <a href="">ok</a>
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
         </div>
     </div>
 
     <div class="button">Links
         <div class="dropdown">
-            <a href="">group 1</a>
-            <a href="">group b</a>
-            <a href="">group III</a>
-            <a href="">secret group</a>
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
             </div>
         </div>
 
-    <a href=""><div class="button">Contact
-	</div></a>
+    <div class="button">Contact
+        <div class="dropdown">
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
+            <a>ok</a>
+
+        </div>
+	</div>
 
 </nav>
 </header>
