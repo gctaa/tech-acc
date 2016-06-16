@@ -120,6 +120,7 @@ nav#mainNav div.logo{
     padding: 0vw;
 }
 nav#mainNav div.logo img {
+    max-width: 100%;
     width: 50%;
     height: auto;
     padding-left: 25%;
