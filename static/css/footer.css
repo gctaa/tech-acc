@@ -2,15 +2,15 @@ footer {
     position: static;
     margin-bottom: 0vw;
     display: block;
-    max-width:100%;
     width: 100%;
     text-align: center;
-    background-color: #ff7f04;
+    background-color: #595959;
     margin-top: 5vw;
     height: 5vw;
     overflow:hidden;
+    padding-right:1vw;
 }
-footer a {
+.button {
     display: inline-block;
     font-size: 1.2vw;
     width: 10vw;
@@ -18,9 +18,7 @@ footer a {
     text-decoration: none;
     padding: .25vw;
     color: black;
-    font-weight: 300;
-}
-.button { 
+    font-weight: 300; 
     background-color: #CEDEFF;
     border-radius: 7px;
     border: black solid 1px;
