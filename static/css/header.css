@@ -41,6 +41,7 @@ nav#mainNav {
     -webkit-transform: translateZ(0);
 }
 nav#mainNav div {
+	position: relative;
     display: block;
     text-align: center,bottom;
     width: 14.28%;
@@ -54,46 +55,42 @@ nav#mainNav div {
     border-style: solid;
     transition: background-color .2s;
 }
+nav#mainNav div.button {
+    display: block;
+    position: relative;
+    width: 14.28%;
+    color: #FFF;
+    font-size: 1.5vw;
+    text-decoration: none;
+    text-align: center;
+    height: 2vw;
+    z-index: 2;
+    border: 0;
+	border-radius: 0vw;
+	top: 0vw;
+}
 nav#mainNav div.button:hover {
     background-color: #00FF80;
     opacity: 1;
 }
-nav#mainNav div.logo:hover {
-    background-color: #00FF80;
-    opacity: 1;
-}
-nav#mainNav div.other {
-    height: 3vw;
-}
-nav#mainNav div.other div.button {
-    display: block;
-    position: relative;
-    top: .2vw;
-    width: 100%;
-    color: #FFF;
-    font-size: 2vw;
-    text-decoration: none;
-    text-align: center;
-    height: 3vw;
-    z-index: 20;
-    border: 0;
-}
-nav#mainNav div.other div.dropdown {
+nav#mainNav div.dropdown {
     display: none;
     position: fixed;
-    top: 3vw;
+    top: 2vw;
     background-color: #f9f9f9;
     width: 14.28%;
     height: auto;
-    z-index: -2;
+    z-index: 1;
+	border: 0vw;
     border-color: #f2f2f2;
     box-shadow: 0vw 0vw 1vw .2vw #888888;
     overflow: hidden;
 }
-nav#mainNav div.other:hover div.dropdown {
+nav#mainNav div.button:hover div.dropdown {
     display: block;
+	position: fixed;
 }
-nav#mainNav div.other div.dropdown a {
+nav#mainNav div.dropdown a {
     vertical-align: middle;
     width: 100%;
     font-size: 2vw;
@@ -103,24 +100,28 @@ nav#mainNav div.other div.dropdown a {
     float: top;
     transition: background-color .3s;
 }
-nav#mainNav div.other div.dropdown a:hover {
+nav#mainNav div.dropdown a:hover {
     background-color: #00FF80;
 }
 nav#mainNav div.logo{
-    height: 4vw;
+    height: 3vw;
     border-width: 0vw;
     border-color: white;
     border-bottom-style: solid;
-    border-bottom-left-radius: .7vw;
-    border-bottom-right-radius: .7vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
     padding: 0vw;
 }
 nav#mainNav div.logo img {
-    width: 80%;
+    width: 50%;
     height: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+}
+nav#mainNav div.logo:hover {
+    background-color: #00FF80;
+    opacity: 1;
 }
 nav#mainNav div.close {
     display: none;
