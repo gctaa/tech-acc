@@ -117,6 +117,10 @@ main {
     text-align: center;
     transition: background-color .3s;
 }
+.icon {
+    width: 5vw;
+    height: auto;
+}
 .setbox:hover {
     background-color: #cccccc;
 }
