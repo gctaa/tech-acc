@@ -51,7 +51,7 @@ window.onload = window.onresize = function () {
 
     <div class="button">About
         <div class="dropdown">
-            <a href="">History</a>
+            <a href="about.php">History</a>
             <a href="">Plans</a>
         </div>
     </div>
@@ -68,7 +68,7 @@ window.onload = window.onresize = function () {
     </div>
 
     <div class="logo">
-        <img src="static/media/techlogo.png" alt="Logo"/>
+        <a href="index.php"><img src="static/media/techlogo.png" alt="Logo"/></a>
     </div>
 
     <div class="button">News
