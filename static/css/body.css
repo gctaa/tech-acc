@@ -90,9 +90,9 @@ main {
     margin-right: 10.5vw;
 }
 .setbox h2{
-    margin-top: 0vw;
+    margin: 0vw;
     font-size: 2vw;
-    height: 6vw;
+    height: 5vw;
     color: black;
     background-color: white;
     overflow: hidden;
@@ -106,7 +106,7 @@ main {
     right: 0vw;
     left: 0vw;
     bottom: 0vw;
-    margin-bottom: 0vw;
+    margin: 0vw;
     text-align: left;
     font-size: 1.5vw;
     color: black;
