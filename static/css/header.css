@@ -120,12 +120,12 @@ nav#mainNav div.logo{
     padding: 0vw;
 }
 nav#mainNav div.logo img {
+    position: fixed;
     max-width: 100%;
-    width: 50%;
+    width: 8%;
     height: auto;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 3%;
+    right: 46%;
+    top: .2vw;
 }
 nav#mainNav div.logo:hover {
     background-color: #00FF80;
