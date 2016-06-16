@@ -1,21 +1,21 @@
-<!-- This is the php that includes the header -->
 <?php include("header.inc"); ?>
+<!-- This is the php that includes the header -->
 
 <main>
+<section>
 <h1 class="pageTitle">Parent Advisory Committee</h1>
 Arlngton Tech - Arlington Career Center
 <h1 class="smallerTitle">Home</h1>
 <!-- Page title above. <hr> is the weird break black line below. Never knew about it till now -->
 <hr>
 
-<section>
 <!-- Slideshow below -->
 <div id="slides" style="height: 142px;">
-    <img id="slide1" class="stacked" src="static/media/projectImages/Building.jpg">
-    <img id="slide2" class="stacked" src="static/media/projectImages/diconnecting.jpg">
-    <img id="slide3" class="stacked" src="static/media/projectImages/measuring.jpg">
-    <img id="slide4" class="stacked" src="static/media/projectImages/measuringvoltage.jpg">
-    <img id="slide5" class="stacked" src="static/media/projectImages/takinglux.jpg">
+    <img id="slide1" class="stacked" src="static/media/projectImages/Building.jpg" alt="Building" />
+    <img id="slide2" class="stacked" src="static/media/projectImages/diconnecting.jpg" alt="Disconnecting" />
+    <img id="slide3" class="stacked" src="static/media/projectImages/measuring.jpg" alt="Measuring" />
+    <img id="slide4" class="stacked" src="static/media/projectImages/measuringvoltage.jpg" alt="Voltage" />
+    <img id="slide5" class="stacked" src="static/media/projectImages/takinglux.jpg" alt="Lux"/>
 </div>
 
 <!-- This is a discription of the website underneath the slideshow -->
@@ -43,7 +43,7 @@ Arlngton Tech - Arlington Career Center
 
 <hr>
 
-<iframe class="calander" src="https://calendar.google.com/calendar/embed?src=v3pvp6mvpmb4n5eulj1dnjncnc%40group.calendar.google.com&ctz=America/New_York"></iframe>
+<!-- <iframe class="calander" src="https://calendar.google.com/calendar/embed?src=v3pvp6mvpmb4n5eulj1dnjncnc%40group.calendar.google.com&ctz=America/New_York"></iframe> -->
 
 </main>
 

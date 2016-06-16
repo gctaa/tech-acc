@@ -6,7 +6,6 @@
 <title>Arlington Career Center Parent Advisory Group</title>
 <link rel="icon" href="static/media/techlogo.png">
 <link rel="stylesheet" href="static/css/body.css">
-<link rel="stylesheet" href="static/css/info.css">
 <link rel="stylesheet" href="static/css/slide.css">
 <link rel="stylesheet" href="static/css/header.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
@@ -78,7 +77,7 @@ window.onload = window.onresize = function () {
     </div>
 
     <div class="logo">
-        <img src="static/media/techlogo.png" />
+        <img src="static/media/techlogo.png" alt="Logo"/>
     </div>
 
     <div class="button">News

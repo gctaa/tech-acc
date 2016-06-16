@@ -18,11 +18,11 @@ header div, header h1 {
 header h1 {
     font-size: 3.3vw;
     padding-right: 25vw;
-    font-family: Lato sans-serif;
+    font-family: 'Lato sans-serif';
 }
 header div#navb {
     display: none;
-}
+}a
 header div#navb img {
     height: 6vw;
 }
@@ -38,12 +38,10 @@ nav#mainNav {
     position: fixed;
     top: 0vw;
     border-left-color: #333;
-    -webkit-transform: translateZ(0);
 }
 nav#mainNav div {
-	position: relative;
+    position: relative;
     display: block;
-    text-align: center,bottom;
     width: 14.28%;
     float: left;
     background-color: #595959;
