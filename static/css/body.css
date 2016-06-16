@@ -6,11 +6,9 @@ body {
     font-family: 'Lora', serif;
     margin-top: 6vw;
     max-width: 100vw;
-    width: 100%;
     background-color: #FFFFF0;
     z-index: 1;
     overflow: scroll;
-    margin-left:-1vw;
 }
 main div {
     display: block;
