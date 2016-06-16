@@ -10,12 +10,14 @@ Arlngton Tech - Arlington Career Center
 <hr>
 
 <!-- Slideshow below -->
+<div class="background">
 <div id="slides" style="height: 142px;">
     <img id="slide1" class="stacked" src="static/media/projectImages/Building.jpg" alt="Building" />
     <img id="slide2" class="stacked" src="static/media/projectImages/diconnecting.jpg" alt="Disconnecting" />
     <img id="slide3" class="stacked" src="static/media/projectImages/measuring.jpg" alt="Measuring" />
     <img id="slide4" class="stacked" src="static/media/projectImages/measuringvoltage.jpg" alt="Voltage" />
     <img id="slide5" class="stacked" src="static/media/projectImages/takinglux.jpg" alt="Lux"/>
+</div>
 </div>
 
 <!-- This is a discription of the website underneath the slideshow -->
