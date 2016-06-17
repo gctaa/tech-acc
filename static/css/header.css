@@ -74,7 +74,7 @@ nav#mainNav div.button:hover {
 nav#mainNav div.dropdown {
     display: none;
     position: relative;
-    top: .2vw;
+    top: 0vw;
     background-color: #f9f9f9;
     width: 100%;
     height: auto;
