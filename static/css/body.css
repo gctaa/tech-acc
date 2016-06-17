@@ -4,10 +4,14 @@
 @import url(footer.css);
 body {
     font-family: 'Lora', serif;
+    margin: 0;
     margin-top: 4vw;
     max-width: 100vw;
     background-color: #FFFFF0;
     z-index: 1;
+    position: absolute;
+    right: 0vw;
+    left: 0vw;
 }
 main div {
     display: block;
@@ -75,7 +79,7 @@ main {
     display: table-cell;
     text-align: center;
     margin-right: 0vw;
-    margin-left: 4vw;
+    margin-left: 5.46vw;
     margin-bottom: 1.5vw;
     text-decoration: none;
     color: black;
@@ -87,7 +91,7 @@ main {
     transition: background-color .3s;
 }
 .setbox:first-child {
-    margin-left: 8.5vw;
+    margin-left: 8.64vw;
 }
 .setbox h2{
     margin: 0vw;
@@ -152,9 +156,10 @@ hr {
 .background{
     height: 35vw;
     background-color: #555;
-    width: 82%;
-    border-radius: 5px;
+    width: 78.72vw;
+    border-radius: 1vw;
+    padding: 0vw;
     padding-top: 1vw;
-    margin-left: 9%;
+    margin-left: 8.64vw;
 }
 
