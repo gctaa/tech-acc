@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php include("header.inc"); ?>
 <body>
 <!-- This is the php that includes the header -->
-<?php include("header.inc"); ?>
 
 
 <main>

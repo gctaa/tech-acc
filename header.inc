@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>Arlington Career Center Parent Advisory Group</title>
-<link rel="icon" href="static/media/techlogo.png">
+<link rel="icon" href="static/media/acclogo.png">
 <link rel="stylesheet" href="static/css/body.css">
 <link rel="stylesheet" href="static/css/slide.css">
 <link rel="stylesheet" href="static/css/header.css">
