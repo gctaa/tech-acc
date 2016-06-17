@@ -43,17 +43,18 @@ window.onload = window.onresize = function () {
 <div id="navb"><img src="static/media/navburger.svg" alt="navigation icon">
 </div>
 <div id="close" class="hide"><img src="static/media/exit.svg" alt="navigation exit button"></div>
+<!-- The Above is for the nav bar on mobil -->
 
-<!--this list is for the nav bar-->
+<!-- This list is for the nav bar -->
 <nav id="mainNav">
-
+<!-- below is the nav bar buttons, the buttons class is the nav bar buttons and the dropdown is the dropdown bar. the a are links to other things, you can add as many a as you want, however you can't add any more buttons or dropdowns without changing the cdd :^] -->
     <div class="button">About
         <div class="dropdown">
             <a href="about.php">History</a>
             <a href="">Plans</a>
         </div>
     </div>
-
+    <!-- Below is how one makes a button with no dropdown -->
     <a  href="FAQ.php"><div class="button">FAQs</div></a>
 
     <div class="button">Programs
@@ -64,7 +65,7 @@ window.onload = window.onresize = function () {
             <a href="">Forbidden Engineering</a>
         </div>
     </div>
-
+<!-- Below is the logo, there really is no need to change it unless you want to replace the image with a better one -->
     <a href="index.php">
         <div class="logo">
             <img src="static/media/techlogo.png" alt="Logo"/>
@@ -73,24 +74,25 @@ window.onload = window.onresize = function () {
 
     <div class="button">News
         <div class="dropdown">
-            <a href="">ok</a>
-            <a href="">ok</a>
-            <a href="">ok</a>
-            <a href="">ok</a>
+            <a href="">News</a>
+            <a href="">More News</a>
+            <a href="">Memes</a>
+            <a href="">Squid Attacks NYC</a>
         </div>
     </div>
 
     <div class="button">Links
         <div class="dropdown">
-            <a href="">group 1</a>
-            <a href="">group b</a>
-            <a href="">group III</a>
-            <a href="">secret group</a>
+            <a href="">Group 1</a>
+            <a href="">Group b</a>
+            <a href="">Group III</a>
+            <a href="">Secret Group</a>
             </div>
         </div>
 
     <a href=""><div class="button">Contact
-	</div></a>
+	
+    </div></a>
 
 </nav>
 </header>

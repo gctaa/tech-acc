@@ -48,8 +48,6 @@ Arlngton Tech - Arlington Career Center
 
 <hr>
 
-<!-- <iframe class="calander" src="https://calendar.google.com/calendar/embed?src=v3pvp6mvpmb4n5eulj1dnjncnc%40group.calendar.google.com&ctz=America/New_York"></iframe> -->
-
 </main>
 
 <!-- This is the footer -->

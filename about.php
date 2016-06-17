@@ -23,7 +23,7 @@
 <img class="right" src="static/media/projectImages/acc_sign.jpg" alt="picture"/>
 
 <!-- This is the second discription of the website underneath the picture -->
-<p class="left"> some of the diciplines included are: carpentry, electrical engineering, computer science and mathamatics  </p>
+<p class="left"> Some of the diciplines included are: carpentry, electrical engineering, computer science and mathamatics  </p>
 
 <!-- This is the second black line that is at the bottom --> 
 </div>
