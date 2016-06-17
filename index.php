@@ -31,24 +31,22 @@ Arlngton Tech - Arlington Career Center
 <div class="boxes">
   <a class="setbox" href="about.php">
     <h2>About the program</h2>
-    <img class=icon src="static/media/pen.ico" />
+    <img class=icon src="static/media/pen.ico" alt="tux"/>
     <p>Picture maybe?</p>
   </a>
   <a class="setbox" href="/project">
     <h2>History/Legacy of the program</h2>
-    <img class=icon src="static/media/pen.ico" />
+    <img class=icon src="static/media/pen.ico" alt="tux"/>
     <p>Quick explanation of recent history or legacy</p>
   </a>
   <a class="setbox" href="/contact">
     <h2>Contact us</h2>
-    <img class=icon src="static/media/pen.ico" />
+    <img class=icon src="static/media/pen.ico" alt="tux"/>
     <p>For more information contact us by clicking here!</p>
   </a>
 </div>
 
 <hr>
-
-<!-- <iframe class="calander" src="https://calendar.google.com/calendar/embed?src=v3pvp6mvpmb4n5eulj1dnjncnc%40group.calendar.google.com&ctz=America/New_York"></iframe> -->
 
 </main>
 
