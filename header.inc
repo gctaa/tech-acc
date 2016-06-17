@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Arlington Career Center Parent Advisory Group</title>
@@ -35,6 +37,7 @@ window.onload = window.onresize = function () {
 }
 </script>
 </head>
+<body>
 <header>
 <!--this is for the mobile functionality the navburger is the three horisontal lines in the top right of the mobile version-->
 <div id="navb"><img src="static/media/navburger.svg" alt="navigation icon">
@@ -62,9 +65,11 @@ window.onload = window.onresize = function () {
         </div>
     </div>
 
-    <div class="logo">
-        <a href="index.php"><img src="static/media/techlogo.png" alt="Logo"/></a>
-    </div>
+    <a href="index.php">
+        <div class="logo">
+            <img src="static/media/techlogo.png" alt="Logo"/>
+        </div>
+     </a>
 
     <div class="button">News
         <div class="dropdown">
